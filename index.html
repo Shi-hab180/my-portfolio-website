@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+  <title>Tawhidul Islam Shihab | Software Engineering Student</title>
+  <meta name="description" content="Portfolio of Tawhidul Islam Shihab, Software Engineering student at Daffodil International University.">
+  <meta name="theme-color" content="#0d1117">
+  <!-- Small </> icon in the browser tab (no extra file needed) -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230d1117'/%3E%3Ctext x='32' y='42' font-size='30' text-anchor='middle' fill='%233fb950' font-family='monospace' font-weight='bold'%3E%3C/%3E%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<header class="nav">
+  <a class="brand" href="#home" aria-label="Go to top"><span class="c-green">~/</span>shihab<span class="blink">_</span></a>
+
+  <nav class="menu" id="menu" aria-label="Sections">
+    <a href="#home" class="on">home.html</a>
+    <a href="#about">about.js</a>
+    <a href="#skills">skills.json</a>
+    <a href="#projects">projects/</a>
+    <a href="#journey">journey.log</a>
+    <a href="#contact">contact.sh</a>
+  </nav>
+
+  <button class="icon-btn" id="theme" aria-label="Switch light or dark mode"><span id="theme-label">☀</span></button>
+  <button class="icon-btn burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu">☰</button>
+</header>
+
+<main id="main">
+
+<section id="home" class="hero">
+  <div class="hero-text">
+    <p class="comment">// hello, world</p>
+    <h1>
+      Hi, I'm <span class="grad">Tawhidul Islam Shihab</span>
+    </h1>
+    <p class="typed-line"><span class="c-purple">const</span> role = <span class="c-orange">"<span id="typed"></span></span><span class="cursor">|</span><span class="c-orange">"</span>;</p>
+    <p class="lead">Software Engineering student at Daffodil International University. I learn by building real projects, and I'm open to internships and team collaboration.</p>
+
+    <div class="actions">
+      <a class="btn primary" href="#projects">&gt; view_projects()</a>
+      <a class="btn" href="https://drive.google.com/file/d/1SOfDjepypK03nbtl7w_2eSoOud6EQ974/view?usp=sharing" target="_blank" rel="noopener">↓ download_cv</a>
+    </div>
+
+    <ul class="socials" aria-label="Social links">
+      <li><a href="https://github.com/Shi-hab180" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/tawhidul-islam-shihab-b2343a43b/" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="https://www.facebook.com/shihab.666b" target="_blank" rel="noopener">Facebook</a></li>
+    </ul>
+  </div>
+
+  <div class="hero-photo">
+    <div class="window">
+      <div class="window-bar"><i></i><i></i><i></i><span>profile.jpg</span></div>
+      <img src="images/profile.jpg" alt="Photo of Tawhidul Islam Shihab" onerror="this.onerror=null;this.src='images/placeholder.svg'">
+    </div>
+    <div class="float-tag t1">{ CGPA: 3.50 }</div>
+    <div class="float-tag t2">&lt;/&gt; 6th semester</div>
+  </div>
+
+  <div class="stats">
+    <div><strong data-count="3.50" data-dec="2">3.50</strong><span>CGPA</span></div>
+    <div><strong>6th</strong><span>Semester</span></div>
+    <div><strong>2028</strong><span>Graduation</span></div>
+    <div><strong data-count="2" data-dec="0">2</strong><span>Projects</span></div>
+  </div>
+</section>
+
+<section id="about" class="reveal">
+  <p class="label"><span class="c-green">01.</span> about.js</p>
+  <h2>A little about me</h2>
+  <div class="two">
+    <div class="prose">
+      <p>I'm Shihab, a Software Engineering student at Daffodil International University who enjoys turning clear requirements into working software. I'm interested in programming, problem-solving, and exploring technologies like web development and artificial intelligence. I learn best through hands-on practice, experimenting with code, and building real-world projects. My goal is to become a skilled software engineer and create useful, impactful solutions.</p>
+      <p>I enjoy collaborating with others, sharing ideas, and learning through teamwork. I'm continuously working to improve my technical skills and expand my knowledge of modern software development.</p>
+      <ul class="chips" aria-label="Interests">
+        <li>Web development</li><li>Databases</li><li>System design</li><li>Painting</li>
+      </ul>
+    </div>
+
+    <div class="window code">
+      <div class="window-bar"><i></i><i></i><i></i><span>shihab.js</span></div>
+<pre><code><span class="c-purple">const</span> <span class="c-blue">shihab</span> = {
+  <span class="c-cyan">university</span>: <span class="c-orange">"Daffodil International University"</span>,
+  <span class="c-cyan">degree</span>:     <span class="c-orange">"BSc in Software Engineering"</span>,
+  <span class="c-cyan">location</span>:   <span class="c-orange">"Dhaka, Bangladesh"</span>,
+  <span class="c-cyan">languages</span>:  [<span class="c-orange">"Bangla"</span>, <span class="c-orange">"English"</span>],
+  <span class="c-cyan">goal</span>:       <span class="c-orange">"Internship, then junior developer"</span>,
+  <span class="c-cyan">learning</span>:   [<span class="c-orange">"React"</span>, <span class="c-orange">"Node.js"</span>, <span class="c-orange">"Python"</span>],
+  <span class="c-cyan">openToWork</span>: <span class="c-purple">true</span>
+};</code></pre>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="reveal">
+  <p class="label"><span class="c-green">02.</span> skills.json</p>
+  <h2>What I work with</h2>
+  <div class="levels">
+    <div class="card">
+      <h3><span class="dot g"></span> Strong</h3>
+      <ul class="bars">
+        <li data-level="85"><span>C / C++</span><b></b></li>
+        <li data-level="80"><span>Java</span><b></b></li>
+        <li data-level="88"><span>HTML</span><b></b></li>
+        <li data-level="85"><span>CSS</span><b></b></li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3><span class="dot b"></span> Comfortable</h3>
+      <ul class="bars">
+        <li data-level="68"><span>JavaScript</span><b></b></li>
+        <li data-level="65"><span>MySQL</span><b></b></li>
+        <li data-level="70"><span>Git &amp; GitHub</span><b></b></li>
+        <li data-level="65"><span>UML diagrams</span><b></b></li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3><span class="dot o"></span> Learning</h3>
+      <ul class="bars">
+        <li data-level="40"><span>Python</span><b></b></li>
+        <li data-level="35"><span>React</span><b></b></li>
+        <li data-level="30"><span>Node.js</span><b></b></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="reveal">
+  <p class="label"><span class="c-green">03.</span> projects/</p>
+  <h2>Things I have built</h2>
+  <div class="grid">
+
+    <article class="card project">
+      <div class="shot"><img src="images/project-medical-store.jpg" alt="Medical Store Management System dashboard preview" loading="lazy" onerror="this.onerror=null;this.src='images/placeholder.svg'"></div>
+      <div class="pad">
+        <h3>Medical Store Management System</h3>
+        <p>A C-based system for pharmacies to manage medicine inventory, sales, and suppliers efficiently.</p>
+        <ul class="chips small"><li>C</li><li>File handling</li><li>CLI</li></ul>
+        <p class="links"><a href="https://github.com/Shi-hab180/Medical-Store-Management-System" target="_blank" rel="noopener">GitHub →</a></p>
+      </div>
+    </article>
+
+    <article class="card project">
+      <div class="shot"><img src="images/project-ai-career.jpg" alt="AI Based Internship and Job Recommendation project poster" loading="lazy" onerror="this.onerror=null;this.src='images/placeholder.svg'"></div>
+      <div class="pad">
+        <h3>AI Based Internship &amp; Job Recommendation</h3>
+        <p>A system design that suggests suitable internships and jobs to students based on their skills and interests, documented with use case diagrams and analysis.</p>
+        <ul class="chips small"><li>Use case diagram</li><li>draw.io</li><li>Analysis</li></ul>
+        <p class="links"><a href="https://docs.google.com/document/d/1syWJ7Z28q0Y_tYYw5zMAXo09c0L5TUGS/edit?usp=sharing&ouid=106652027343193547397&rtpof=true&sd=true" target="_blank" rel="noopener">Read report →</a></p>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section id="journey" class="reveal">
+  <p class="label"><span class="c-green">04.</span> journey.log</p>
+  <h2>My path so far</h2>
+
+  <div class="tabs" role="tablist" aria-label="Journey">
+    <button role="tab" id="tab-edu" aria-controls="panel-edu" aria-selected="true">Education</button>
+    <button role="tab" id="tab-exp" aria-controls="panel-exp" aria-selected="false" tabindex="-1">Experience</button>
+    <button role="tab" id="tab-cert" aria-controls="panel-cert" aria-selected="false" tabindex="-1">Certificates</button>
+  </div>
+
+  <div role="tabpanel" id="panel-edu" aria-labelledby="tab-edu" class="panel">
+    <ol class="steps">
+      <li><time>2025 – now</time><h3>BSc in Software Engineering</h3><p>Daffodil International University · CGPA 3.50</p></li>
+      <li><time>2022 – 2024</time><h3>Higher Secondary Certificate</h3><p><!-- EDIT: add your college name here --> Science group · GPA 5.00</p></li>
+      <li><time>2020 – 2022</time><h3>Secondary School Certificate</h3><p><!-- EDIT: add your school name here --> Science group · GPA 5.00</p></li>
+    </ol>
+  </div>
+
+  <div role="tabpanel" id="panel-exp" aria-labelledby="tab-exp" class="panel" hidden>
+    <ol class="steps">
+      <li><time>2025 – now</time><h3>Member, SQAT Club</h3><p>Software Quality Assurance &amp; Testing Club. Workshops, contests and team activities.</p></li>
+      <li><time>2025 – now</time><h3>Software Engineering student</h3><p>Programming, data structures, databases and software analysis. Individual assignments and group projects.</p></li>
+    </ol>
+  </div>
+
+  <div role="tabpanel" id="panel-cert" aria-labelledby="tab-cert" class="panel" hidden>
+    <div class="grid certs">
+      <figure class="card">
+        <button class="cert-open" data-full="images/cert-ml-bootcamp.png" aria-label="Enlarge certificate: ML Bootcamp for Beginners"><img src="images/cert-ml-bootcamp.png" alt="Certificate: ML Bootcamp for Beginners" loading="lazy"></button>
+        <figcaption class="pad"><h3>ML Bootcamp for Beginners</h3><p>Daffodil AI Club × Shohoj Coding · June 2026</p></figcaption>
+      </figure>
+      <figure class="card">
+        <button class="cert-open" data-full="images/cert-career-seminar.png" aria-label="Enlarge certificate: Career Planning Roadmap seminar"><img src="images/cert-career-seminar.png" alt="Certificate: Career Planning Roadmap seminar" loading="lazy" onerror="this.onerror=null;this.src='images/placeholder.svg'"></button>
+        <figcaption class="pad"><h3>Seminar on Career Planning Roadmap</h3><p>Daffodil International University · April 2026</p></figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="reveal">
+  <p class="label"><span class="c-green">05.</span> contact.sh</p>
+  <h2>Let's talk</h2>
+  <div class="two">
+    <div class="window">
+      <div class="window-bar"><i></i><i></i><i></i><span>terminal</span></div>
+      <div class="term">
+        <p><span class="c-green">$</span> whoami</p>
+        <p class="out">Tawhidul Islam Shihab</p>
+        <p><span class="c-green">$</span> cat email.txt</p>
+        <p class="out row"><a href="mailto:tawhidulislamshihab8@gmail.com" id="mail">tawhidulislamshihab8@gmail.com</a> <button class="copy" data-copy="tawhidulislamshihab8@gmail.com">copy</button></p>
+        <p><span class="c-green">$</span> cat phone.txt</p>
+        <p class="out row"><a href="tel:+8801911264953">+880 1911 264953</a> <button class="copy" data-copy="+8801911264953">copy</button></p>
+        <p><span class="c-green">$</span> pwd</p>
+        <p class="out">Dhaka, Bangladesh</p>
+        <p><span class="c-green">$</span> <span class="cursor">▍</span></p>
+      </div>
+    </div>
+
+    <form id="contact-form" class="card">
+      <label>Your name <input type="text" name="name" autocomplete="name" required></label>
+      <label>Your email <input type="email" name="email" autocomplete="email" required></label>
+      <label>Message <textarea name="message" rows="5" required></textarea></label>
+      <button class="btn primary" type="submit">&gt; send_message()</button>
+      <p class="hint">This opens your email app with the message ready to send.</p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <p><span class="c-green">&lt;/&gt;</span> Designed &amp; built by Tawhidul Islam Shihab · <span id="year"></span></p>
+  <p class="hint">HTML · CSS · JavaScript</p>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<dialog id="viewer">
+  <form method="dialog"><button class="btn close">✕ Close</button></form>
+  <img id="viewer-img" alt="Certificate enlarged">
+</dialog>
+
+<script src="js/script.js"></script>
+</body>
+</html>
